@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #ffde59;
+    padding: 15px;
+    width: 88%;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+.ban {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+
+.menu a:hover .ban {
+    transform: scale(1.3);
+}
+
+
+.home-icon {
+    width: 55px;
+    height: 55px;
+}
+
+ol,
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.pais-franca1 {
+    position: absolute;
+    left: 96px;
+    top: 220px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-franca2 {
+    position: absolute;
+    left: 96px;
+    top: 870px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-franca3 {
+    position: absolute;
+    left: 96px;
+    top: 1570px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-franca4 {
+    position: absolute;
+    left: 96px;
+    top: 2270px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-franca5 {
+    position: absolute;
+    left: 96px;
+    top: 2920px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-italia1 {
+    position: absolute;
+    left: 96px;
+    top: 220px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-italia2 {
+    position: absolute;
+    left: 96px;
+    top: 870px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-italia3 {
+    position: absolute;
+    left: 96px;
+    top: 1510px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-italia4 {
+    position: absolute;
+    left: 96px;
+    top: 2160px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-italia5 {
+    position: absolute;
+    left: 96px;
+    top: 2770px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-japao1 {
+    position: absolute;
+    left: 96px;
+    top: 220px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-japao2 {
+    position: absolute;
+    left: 96px;
+    top: 890px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-japao3 {
+    position: absolute;
+    left: 96px;
+    top: 1520px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-japao4 {
+    position: absolute;
+    left: 96px;
+    top: 2130px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-japao5 {
+    position: absolute;
+    left: 96px;
+    top: 2810px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-mexico1 {
+    position: absolute;
+    left: 96px;
+    top: 220px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-mexico2 {
+    position: absolute;
+    left: 96px;
+    top: 900px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-mexico3 {
+    position: absolute;
+    left: 96px;
+    top: 1540px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-mexico4 {
+    position: absolute;
+    left: 96px;
+    top: 2170px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-mexico5 {
+    position: absolute;
+    left: 96px;
+    top: 2730px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-brasil1 {
+    position: absolute;
+    left: 96px;
+    top: 220px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-brasil2 {
+    position: absolute;
+    left: 96px;
+    top: 830px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-brasil3 {
+    position: absolute;
+    left: 96px;
+    top: 1450px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-brasil4 {
+    position: absolute;
+    left: 96px;
+    top: 2070px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais-brasil5 {
+    position: absolute;
+    left: 96px;
+    top: 2620px;
+    padding: 80px;
+    font-size: 20px;
+    width: 45%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.nome {
+    background-color: #ffde59;
+    padding: 15px;
+    position: absolute;
+    height: 55px;
+    left: 100px;
+    top: 110px;
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+
+
+.img-receita-brasil1 {
+    position: absolute;
+    left: 1220px;
+    top: 320px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-brasil2 {
+    position: absolute;
+    left: 1220px;
+    top: 925px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-brasil3 {
+    position: absolute;
+    left: 1220px;
+    top: 1540px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-brasil4 {
+    position: absolute;
+    left: 1220px;
+    top: 2130px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-brasil5 {
+    position: absolute;
+    left: 1220px;
+    height: auto;
+    width: 650px;
+    top: 2700px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-franca1 {
+    position: absolute;
+    left: 1220px;
+    top: 320px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-franca2 {
+    position: absolute;
+    left: 1220px;
+    top: 995px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-franca3 {
+    position: absolute;
+    left: 1220px;
+    top: 1730px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-franca4 {
+    position: absolute;
+    left: 1220px;
+    top: 2380px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-franca5 {
+    position: absolute;
+    left: 1220px;
+    height: auto;
+    width: 650px;
+    top: 3020px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-italia1 {
+    position: absolute;
+    left: 1220px;
+    top: 320px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-italia2 {
+    position: absolute;
+    left: 1220px;
+    top: 985px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-italia3 {
+    position: absolute;
+    left: 1220px;
+    top: 1630px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-italia4 {
+    position: absolute;
+    left: 1220px;
+    top: 2250px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-italia5 {
+    position: absolute;
+    left: 1220px;
+    height: auto;
+    width: 650px;
+    top: 2880px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-japao1 {
+    position: absolute;
+    left: 1220px;
+    top: 320px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-japao2 {
+    position: absolute;
+    left: 1220px;
+    top: 985px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-japao3 {
+    position: absolute;
+    left: 1220px;
+    top: 1600px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-japao4 {
+    position: absolute;
+    left: 1220px;
+    top: 2265px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-japao5 {
+    position: absolute;
+    left: 1113px;
+    height: auto;
+    width: 650px;
+    top: 130px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-mexico1 {
+    position: absolute;
+    left: 1114px;
+    top: 120px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-mexico2 {
+    position: absolute;
+    left: 1220px;
+    top: 1000px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-mexico3 {
+    position: absolute;
+    left: 1220px;
+    top: 1640px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-mexico4 {
+    position: absolute;
+    left: 1220px;
+    top: 2230px;
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+.img-receita-mexico5 {
+    position: absolute;
+    left: 1220px;
+    height: auto;
+    width: 650px;
+    top: 2840px;
+    border-radius: 20px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+}
+#receita1 {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #002395;
+}
+
+#receita2 {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #009246;
+}
+
+#receita3 {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #d42a2a;
+}
+
+#receita4 {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #026848;
+}
+
+#receita5 {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #3c9a3c;
+}
+
+.back-to-top-HOME {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 999px;
+    background: #ffde59;
+    border: 2px black solid;
+    color: black;
+    text-decoration: none;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    top: 80%;
+}

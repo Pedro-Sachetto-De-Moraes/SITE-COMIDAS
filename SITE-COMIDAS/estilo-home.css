@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #ffde59;
+    padding: 15px;
+    width: 88%;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+.ban {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+
+.menu a:hover .ban {
+    transform: scale(1.3);
+}
+
+
+.home-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.pais {
+    position: relative;
+    padding: 80px;
+    width: 45%;
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    border-radius: 26px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.pais:hover {
+    transform: scale(1.05);
+}
+
+.pais h1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+#brasil {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #3c9a3c;
+}
+
+#franca {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #002395;
+}
+
+#italia {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #009246;
+}
+
+#japao {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #d42a2a;
+}
+
+#mexico {
+    background: rgba(245, 245, 255, 0.9);
+    border-left: 10px solid #026848;
+}
+
+
+button {
+    position: absolute;
+    left: 64%;
+    top: 45%;
+    background-color: #ffde59;
+    border: none;
+    color: #333;
+    padding: 26px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.listabrasil,
+.listafranca,
+.listaitalia,
+.listajapao,
+.listamexico {
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.6;
+    color: black;
+    margin-top: 20px;
+}
+
+.bandeiras-brasil {
+   position: absolute;
+   top: 200px;
+   left: 1300px;
+}
+
+.bandeiras-franca {
+   position: absolute;
+   top: 650px;
+   left: 1300px;
+}
+
+.bandeiras-italia {
+   position: absolute;
+   top: 1100px;
+   left: 1300px;
+}
+
+ .bandeiras-japao {
+   position: absolute;
+   top: 1550px;
+   left: 1300px;
+}
+
+.bandeiras-mexico {
+   position: absolute;
+   top: 1970px;
+   left: 1300px;
+}
+
+.back-to-top-HOME {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 999px;
+    background: #ffde59;
+    border: 2px black solid;
+    color: black;
+    text-decoration: none;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    top: 80%;
+}
